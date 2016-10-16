@@ -1,0 +1,17 @@
+{
+  "name": "ycjungpage",
+  "version": "0.0.0",
+  "description": "Personal page for ycjung",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": "https://github.com/ycjungSubhuman/ycjung.git",
+  "author": "ycjung",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1"
+  }
+}
