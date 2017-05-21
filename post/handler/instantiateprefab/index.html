@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title> :: CurrentWrite Documentation Site</title>
+    <title>InstantiatePrefab :: CurrentWrite Documentation Site</title>
     <link href="/css/nucleus.css" rel="stylesheet">
     <link href="/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/hybrid.css" rel="stylesheet">
@@ -29,7 +29,7 @@
     
 
   </head>
-  <body class="" data-url="/">
+  <body class="" data-url="/post/handler/instantiateprefab/">
     
 <nav id="sidebar" class="">
   <div id="header-wrapper">
@@ -98,18 +98,24 @@
     
         <li data-nav-id="/post/handler/" class="dd-item 
          
-        
+        parent
         "
         >
             <a href="/post/handler/">
                 <span>Handler</span>
                 
                     
-                        <i class="fa fa-angle-right fa-lg category-icon"></i>
+                        <i class="fa fa-angle-down fa-lg category-icon"></i>
                     
                 
                 
             </a>
+            
+                
+                
+                
+                    
+                
             
             
             
@@ -165,7 +171,7 @@
     
     
         <li data-nav-id="/post/handler/instantiateprefab/" class="dd-item 
-         
+        active 
         
         "
         >
@@ -174,6 +180,10 @@
                 
                 
             </a>
+            
+                
+                
+                
             
             
             
@@ -370,41 +380,73 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
         
+          <div id="top-bar">
+            
+
+            <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                <span id="sidebar-toggle-span">
+                  <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </span>
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                <a href="/">
+                  <span class="fa fa-arrow-circle-right" style="font-size:larger" aria-hidden="true"></span>
+                  CurrentWrite Documentation Site
+                </a>
+                
+                   / <a href='/post/handler/'>Handler</a> / <a href='/post/handler/instantiateprefab/'>InstantiatePrefab</a>
+                
+                
+            </div>
+            <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#파라미터">파라미터</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+          </div>
+        
         
         <div id="body-inner">
+          
+            <h1>InstantiatePrefab</h1>
           
 
 
 
- 
+
+<p>Prefab을 Parent와 LocalPos를 설정하여 생성합니다.</p>
+
+<p>이 핸들러는 실행되자마자 거의 바로 종료됩니다.</p>
+
+<h4 id="파라미터">파라미터</h4>
+
+<ul>
+<li>Prefab : 생성할 Prefab의 이름. Assets/Resources 폴더를 기준으로 한다.</li>
+<li>LocalPos : 생성될 게임 오브젝트의 localPosition값</li>
+<li>Parent : Parent로 삼을 GameObject의 이름(Hierarchy 창에서 확인 가능한 그것)</li>
+</ul>
+
+
+<footer class=" footline" >
 	
+</footer>
 
-<h1 id="home">Home</h1>
 
-<p>CurrentWriter 사용 가이드 페이지에 오신 것을 환영합니다. CurrentWriter는
-Unity3D엔진을 위한 그래픽 프로그래밍 툴입니다. 이 툴은 당신이 만들 Unity3D
-어플리케이션에서 발생하는 여러 이벤트들과, 각 이벤트를 처리하는 핸들러들을 쉽게 조합하고,
-배치할 수 있도록 도와줍니다.</p>
-
-<h4 id="이-툴로-무엇을-할-수-있나요">이 툴로 무엇을 할 수 있나요?</h4>
-
-<p>이 툴을 통해 작성된 그래프는 어플리케이션 실행시 스크립트로 컴파일 되어, Scene 내부에
-있는 GameObject를 생성/조작/소멸시킬 수 있습니다. 즉, 기존 Unity3D에서 MonoBehaviour
-스크립트를 작성하여 게임 내 객체들을 조작하는 것 대신, 이 툴이 제공하는 그래프 편집창에서
-그래프를 그림으로써 어플리케이션 내에 있는 객체들을 이벤트에 따라 조작할 수 있습니다.</p>
-
-<h4 id="이-툴의-기초적인-사용-방법을-알고-싶어요">이 툴의 기초적인 사용 방법을 알고 싶어요</h4>
-
-<p><a href="/post/gettingstarted">처음 시작하기</a></p>
-
-<h4 id="내가-선언할-수-있는-이벤트나-핸들러에는-어떤-종류가-있나요">내가 선언할 수 있는 이벤트나 핸들러에는 어떤 종류가 있나요?</h4>
-
-<p>왼쪽의 탐색바에서 사용할 수 있는 이벤트와 핸들러를 살펴볼 수 있습니다. 또한 각 항목을
-클릭하면 해당 구성요소에 대한 상세한 설명을 살펴볼 수 있습니다.</p>
-
-<p><strong>항상 세이브를 하실 때에는 편집 화면의 빈 공간을 한 번 클릭해 주세요</strong></p>
- 
-  
 
       </div>
     </div>
@@ -463,6 +505,7 @@ Unity3D엔진을 위한 그래픽 프로그래밍 툴입니다. 이 툴은 당�
             
                 
                     
+                    
                 
                 
                 
@@ -473,6 +516,9 @@ Unity3D엔진을 위한 그래픽 프로그래밍 툴입니다. 이 툴은 당�
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -554,6 +600,10 @@ Unity3D엔진을 위한 그래픽 프로그래밍 툴입니다. 이 툴은 당�
 
 
         
+            <a class="nav nav-prev" href="/post/handler/donothing/" title="DoNothing"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="/post/handler/moveconstant/" title="MoveConstant" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -581,3 +631,4 @@ Unity3D엔진을 위한 그래픽 프로그래밍 툴입니다. 이 툴은 당�
 
   </body>
 </html>
+

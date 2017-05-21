@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title> :: CurrentWrite Documentation Site</title>
+    <title>예시 :: CurrentWrite Documentation Site</title>
     <link href="/css/nucleus.css" rel="stylesheet">
     <link href="/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/hybrid.css" rel="stylesheet">
@@ -29,7 +29,7 @@
     
 
   </head>
-  <body class="" data-url="/">
+  <body class="" data-url="/post/examples/">
     
 <nav id="sidebar" class="">
   <div id="header-wrapper">
@@ -304,18 +304,24 @@
     
         <li data-nav-id="/post/gettingstarted/" class="dd-item 
          
-        
+        parent
         "
         >
             <a href="/post/gettingstarted/">
                 <span>처음 시작하기</span>
                 
                     
-                        <i class="fa fa-angle-right fa-lg category-icon"></i>
+                        <i class="fa fa-angle-down fa-lg category-icon"></i>
                     
                 
                 
             </a>
+            
+                
+                
+                
+                    
+                
             
             
             
@@ -327,7 +333,7 @@
     
     
         <li data-nav-id="/post/examples/" class="dd-item 
-         
+        active 
         
         "
         >
@@ -336,6 +342,10 @@
                 
                 
             </a>
+            
+                
+                
+                
             
             
             
@@ -370,41 +380,93 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
         
+          <div id="top-bar">
+            
+
+            <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                <span id="sidebar-toggle-span">
+                  <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </span>
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                <a href="/">
+                  <span class="fa fa-arrow-circle-right" style="font-size:larger" aria-hidden="true"></span>
+                  CurrentWrite Documentation Site
+                </a>
+                
+                   / <a href='/post/gettingstarted/'>처음 시작하기</a> / <a href='/post/examples/'>예시</a>
+                
+                
+            </div>
+            <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#예시">예시</a>
+<ul>
+<li>
+<ul>
+<li><a href="#왼쪽-오른쪽-움직이기">왼쪽/오른쪽 움직이기</a></li>
+<li><a href="#그룹-활용-예시">그룹 활용 예시</a></li>
+<li><a href="#클립-활용-예시">클립 활용 예시</a></li>
+<li><a href="#wait-활용-예시">Wait 활용 예시</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+          </div>
+        
         
         <div id="body-inner">
+          
+            <h1>예시</h1>
           
 
 
 
- 
+
+<h2 id="예시">예시</h2>
+
+<p>CurrentWriter의 사용 예시들을 소개합니다.</p>
+
+<h4 id="왼쪽-오른쪽-움직이기">왼쪽/오른쪽 움직이기</h4>
+
+<p><img src="/images/example_move.PNG" alt="Move Left and Right" /></p>
+
+<p>왼쪽 화살표를 누르는 동안 player 게임오브젝트가 왼쪽으로 0.50의 속력으로 꾸준히 움직입니다.
+오른쪽 화살표를 누르는 동안 오른쪽으로 0.50의 속력으로 꾸준히 움직입니다.</p>
+
+<h4 id="그룹-활용-예시">그룹 활용 예시</h4>
+
+<p><img src="/images/example_group.png" alt="Group Example1" />
+A 키를 누르는 동안 0.1초 간격으로 bullet1을 player 밑에 생성합니다.</p>
+
+<h4 id="클립-활용-예시">클립 활용 예시</h4>
+
+<p><img src="/images/example_clip.png" alt="Clip Example1" />
+Scene이 처음 초기화 되었을 때, demo_bass_1 클립을 재생하기 시작합니다. 이 클립의 재생이
+끝나면 다시 처음부터 재생합니다. 만약 이 클립의 재생이 끝났을 때, TriggeredEvent1이
+만족되었다면, demo_bass_1의 재생을 중지하고 demo_bass_2의 재생을 시작합니다.</p>
+
+<h4 id="wait-활용-예시">Wait 활용 예시</h4>
+
+<p><img src="/images/example_wait.png" alt="Wait Example1" />
+Scene이 처음 초기화 된 이후 1회에 한해서, v키가 눌렸을 때 player 게임 오브젝트를
+오른쪽으로 0.1만큼 부드럽게 움직입니다.</p>
+
+
+<footer class=" footline" >
 	
+</footer>
 
-<h1 id="home">Home</h1>
 
-<p>CurrentWriter 사용 가이드 페이지에 오신 것을 환영합니다. CurrentWriter는
-Unity3D엔진을 위한 그래픽 프로그래밍 툴입니다. 이 툴은 당신이 만들 Unity3D
-어플리케이션에서 발생하는 여러 이벤트들과, 각 이벤트를 처리하는 핸들러들을 쉽게 조합하고,
-배치할 수 있도록 도와줍니다.</p>
-
-<h4 id="이-툴로-무엇을-할-수-있나요">이 툴로 무엇을 할 수 있나요?</h4>
-
-<p>이 툴을 통해 작성된 그래프는 어플리케이션 실행시 스크립트로 컴파일 되어, Scene 내부에
-있는 GameObject를 생성/조작/소멸시킬 수 있습니다. 즉, 기존 Unity3D에서 MonoBehaviour
-스크립트를 작성하여 게임 내 객체들을 조작하는 것 대신, 이 툴이 제공하는 그래프 편집창에서
-그래프를 그림으로써 어플리케이션 내에 있는 객체들을 이벤트에 따라 조작할 수 있습니다.</p>
-
-<h4 id="이-툴의-기초적인-사용-방법을-알고-싶어요">이 툴의 기초적인 사용 방법을 알고 싶어요</h4>
-
-<p><a href="/post/gettingstarted">처음 시작하기</a></p>
-
-<h4 id="내가-선언할-수-있는-이벤트나-핸들러에는-어떤-종류가-있나요">내가 선언할 수 있는 이벤트나 핸들러에는 어떤 종류가 있나요?</h4>
-
-<p>왼쪽의 탐색바에서 사용할 수 있는 이벤트와 핸들러를 살펴볼 수 있습니다. 또한 각 항목을
-클릭하면 해당 구성요소에 대한 상세한 설명을 살펴볼 수 있습니다.</p>
-
-<p><strong>항상 세이브를 하실 때에는 편집 화면의 빈 공간을 한 번 클릭해 주세요</strong></p>
- 
-  
 
       </div>
     </div>
@@ -540,6 +602,7 @@ Unity3D엔진을 위한 그래픽 프로그래밍 툴입니다. 이 툴은 당�
             
                 
                     
+                    
                 
                 
                 
@@ -553,6 +616,8 @@ Unity3D엔진을 위한 그래픽 프로그래밍 툴입니다. 이 툴은 당�
         
 
 
+        
+            <a class="nav nav-prev" href="/post/gettingstarted/" title="처음 시작하기"> <i class="fa fa-chevron-left"></i></a>
         
         
     </div>
@@ -581,3 +646,4 @@ Unity3D엔진을 위한 그래픽 프로그래밍 툴입니다. 이 툴은 당�
 
   </body>
 </html>
+

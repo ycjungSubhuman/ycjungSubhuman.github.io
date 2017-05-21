@@ -1,5 +1,0 @@
-languageCode = "ko-kr"
-title = "CurrentWrite Documentation Site"
-theme = "hugo-theme-docdock"
-[outputs]
-home = ["HTML", "RSS", "JSON"]
