@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 language: node_js
 node_js:
   - 4.1.1
 before_script:
+=======
+language: node_js
+node_js:
+  - 4.1.1
+before_script:
+>>>>>>> master
   - npm install -g grunt-cli

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: 'League Gothic';
     src: url('league-gothic.eot');
@@ -7,4 +8,15 @@
 
     font-weight: normal;
     font-style: normal;
+=======
+@font-face {
+    font-family: 'League Gothic';
+    src: url('league-gothic.eot');
+    src: url('league-gothic.eot?#iefix') format('embedded-opentype'),
+         url('league-gothic.woff') format('woff'),
+         url('league-gothic.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+>>>>>>> master
 }
