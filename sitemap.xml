@@ -19,6 +19,10 @@
   </url>
   
   <url>
+    <loc>/post/event/clipmidievent/</loc>
+  </url>
+  
+  <url>
     <loc>/post/handler/donothing/</loc>
   </url>
   
@@ -35,6 +39,22 @@
   </url>
   
   <url>
+    <loc>/post/handler/interpolatemove/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/handler/interpolatescale/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/event/keydownevent/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/event/keyupevent/</loc>
+  </url>
+  
+  <url>
     <loc>/post/handler/moveconstant/</loc>
   </url>
   
@@ -48,6 +68,10 @@
   </url>
   
   <url>
+    <loc>/post/event/scenereadyevent/</loc>
+  </url>
+  
+  <url>
     <loc>/post/handler/sendmessageonce/</loc>
   </url>
   
@@ -58,6 +82,10 @@
   
   <url>
     <loc>/post/handler/trigger/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/event/triggeredevent/</loc>
   </url>
   
   <url>

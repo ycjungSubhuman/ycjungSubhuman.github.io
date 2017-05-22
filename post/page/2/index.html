@@ -82,11 +82,129 @@
             <a href="/post/event/">
                 <span>Event</span>
                 
+                    
+                        <i class="fa fa-angle-right fa-lg category-icon"></i>
+                    
+                
                 
             </a>
             
             
             
+                <ul>
+                
+                    
+    
+    
+    
+    
+        <li data-nav-id="/post/event/clipmidievent/" class="dd-item 
+         
+        
+        "
+        >
+            <a href="/post/event/clipmidievent/">
+                <span>ClipMidiEvent</span>
+                
+                
+            </a>
+            
+            
+            
+        </li>
+    
+
+                
+                    
+    
+    
+    
+    
+        <li data-nav-id="/post/event/keydownevent/" class="dd-item 
+         
+        
+        "
+        >
+            <a href="/post/event/keydownevent/">
+                <span>KeyDownEvent</span>
+                
+                
+            </a>
+            
+            
+            
+        </li>
+    
+
+                
+                    
+    
+    
+    
+    
+        <li data-nav-id="/post/event/keyupevent/" class="dd-item 
+         
+        
+        "
+        >
+            <a href="/post/event/keyupevent/">
+                <span>KeyUpEvent</span>
+                
+                
+            </a>
+            
+            
+            
+        </li>
+    
+
+                
+                    
+    
+    
+    
+    
+        <li data-nav-id="/post/event/scenereadyevent/" class="dd-item 
+         
+        
+        "
+        >
+            <a href="/post/event/scenereadyevent/">
+                <span>SceneReadyEvent</span>
+                
+                
+            </a>
+            
+            
+            
+        </li>
+    
+
+                
+                    
+    
+    
+    
+    
+        <li data-nav-id="/post/event/triggeredevent/" class="dd-item 
+         
+        
+        "
+        >
+            <a href="/post/event/triggeredevent/">
+                <span>TriggeredEvent</span>
+                
+                
+            </a>
+            
+            
+            
+        </li>
+    
+
+                
+                </ul>
+             
         </li>
     
 
@@ -171,6 +289,50 @@
         >
             <a href="/post/handler/instantiateprefab/">
                 <span>InstantiatePrefab</span>
+                
+                
+            </a>
+            
+            
+            
+        </li>
+    
+
+                
+                    
+    
+    
+    
+    
+        <li data-nav-id="/post/handler/interpolatemove/" class="dd-item 
+         
+        
+        "
+        >
+            <a href="/post/handler/interpolatemove/">
+                <span>InterpolateMove</span>
+                
+                
+            </a>
+            
+            
+            
+        </li>
+    
+
+                
+                    
+    
+    
+    
+    
+        <li data-nav-id="/post/handler/interpolatescale/" class="dd-item 
+         
+        
+        "
+        >
+            <a href="/post/handler/interpolatescale/">
+                <span>InterpolateScale</span>
                 
                 
             </a>
@@ -419,6 +581,162 @@
 
    <article class="post post">
     <header class="post-header">
+        <h2 class="post-title"><a href="/post/handler/moveconstant/">MoveConstant</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p> 일정한 속력(Velocity)로 Target을 Duration만큼 움직입니다.
+파라미터  Target : 움직일 GameObject의 이름(Hierarchy 창에서 확인 가능한 그것) Velocity : (x값)|(y값)|(z값) 포맷으로 작성 Duration : 초단위. inf를 적을 경우 무한정   <a class="read-more" href="/post/handler/moveconstant/">&raquo;</a></p>
+    </section>
+    <footer class=" footline" >
+         
+        
+
+        
+        
+
+    </footer>
+</article>
+
+
+
+
+
+   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/handler/playclip/">PlayClip</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p> ClipName의 이름을 가지는 clip을 재생합니다. 이 핸들러는 clip이 재생되는 동안 유지됩니다. 반대로 이 핸들러가 어떤 이유에서 중지되면, 이 핸들러에 의해 재생되던 clip도 재생중지됩니다.
+파라미터  ClipName : 재생할 clip의 이름. root파일에 명시되어 있다.(피실험자는 root파일에 대해서 신경 쓰지 않아도 된다.) Loop : true, false 중 하나의 값. true일 경우 이 핸들러는 무한정 지속되며, clip도 무한정 반복된다.   <a class="read-more" href="/post/handler/playclip/">&raquo;</a></p>
+    </section>
+    <footer class=" footline" >
+         
+        
+
+        
+        
+
+    </footer>
+</article>
+
+
+
+
+
+   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/event/scenereadyevent/">SceneReadyEvent</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>어플리케이션이 처음 시작되고, Scene이 초기화 된 뒤 단 한 번 활성화됩니다. 시작 후 바로 시작해야 하는 핸들러가 있다면 이 이벤트를 응용할 수 있습니다.
+이 이벤트는 여러 번 정의하지 말아주세요. <a class="read-more" href="/post/event/scenereadyevent/">&raquo;</a></p>
+    </section>
+    <footer class=" footline" >
+         
+        
+
+        
+        
+
+    </footer>
+</article>
+
+
+
+
+
+   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/handler/sendmessageonce/">SendMessageOnce</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p> Target이 가지고 있는 MonoBehaviour에서 Message라는 이름을 가지는 함수를 Param 인자를 주어 호출합니다. 이 함수는 string 하나를 받는 함수여야 합니다.
+이 핸들러는 실행되자마자 거의 바로 종료됩니다.
+파라미터  Target : 움직일 GameObject의 이름(Hierarchy 창에서 확인 가능한 그것) Message : 호출할 메서드의 이름 Param : 메서드로 전달할 string   <a class="read-more" href="/post/handler/sendmessageonce/">&raquo;</a></p>
+    </section>
+    <footer class=" footline" >
+         
+        
+
+        
+        
+
+    </footer>
+</article>
+
+
+
+
+
+   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/handler/trigger/">Trigger</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p> Name의 이름을 가지는 변수를 하나 생성하고, 활성화 합니다. 이 변수는 TriggeredEvent이벤트를 통해 검사할 수 있습니다. 이 변수는 한 번 TriggeredEvent에서 감지되면 바로 비활성화됩니다.
+이 핸들러는 실행되자마자 거의 바로 종료됩니다.
+파라미터  Name : Trigger로 생성할 변수의 이름. TriggeredEvent에서 사용됩니다.   <a class="read-more" href="/post/handler/trigger/">&raquo;</a></p>
+    </section>
+    <footer class=" footline" >
+         
+        
+
+        
+        
+
+    </footer>
+</article>
+
+
+
+
+
+   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/event/triggeredevent/">TriggeredEvent</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p> Trigger 핸들러에 의해 Name이라는 이름을 가지는 변수가 활성화 되었는지 체크합니다.
+파라미터  Name : 변수의 이름. Trigger 핸들러 참조.   <a class="read-more" href="/post/event/triggeredevent/">&raquo;</a></p>
+    </section>
+    <footer class=" footline" >
+         
+        
+
+        
+        
+
+    </footer>
+</article>
+
+
+
+
+
+   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/post/handler/wait/">Wait</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p> Duration동안 기다립니다. 주로 핸들러 사이의 딜레이를 만들거나, 다른 조건을 무한정 기다리는데 사용합니다.
+파라미터  Duration : 초단위. inf를 적을 경우 무한정   <a class="read-more" href="/post/handler/wait/">&raquo;</a></p>
+    </section>
+    <footer class=" footline" >
+         
+        
+
+        
+        
+
+    </footer>
+</article>
+
+
+
+
+
+   <article class="post post">
+    <header class="post-header">
         <h2 class="post-title"><a href="/post/examples/">예시</a></h2>
     </header>
     <section class="post-excerpt">
@@ -502,6 +820,61 @@ Connection으로 핸들러 간 흐름 조작 한 노드의 시작/끝을 클릭�
                 
                 
                 
+                    
+            
+            
+                
+                    
+                
+                
+                
+            
+        
+                
+                    
+            
+            
+                
+                    
+                
+                
+                
+            
+        
+                
+                    
+            
+            
+                
+                    
+                
+                
+                
+            
+        
+                
+                    
+            
+            
+                
+                    
+                
+                
+                
+            
+        
+                
+                    
+            
+            
+                
+                    
+                
+                
+                
+            
+        
+                
             
         
         
@@ -512,6 +885,28 @@ Connection으로 핸들러 간 흐름 조작 한 노드의 시작/끝을 클릭�
                     
                 
                 
+                
+                    
+            
+            
+                
+                    
+                
+                
+                
+            
+        
+                
+                    
+            
+            
+                
+                    
+                
+                
+                
+            
+        
                 
                     
             
