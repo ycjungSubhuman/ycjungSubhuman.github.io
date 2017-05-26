@@ -94,7 +94,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/post/handler/interpolatescale/</guid>
-      <description> (현재 scale+Delta)까지 Target의 localScale을 Time초 동안 Curve를 따라 조절합니다.
+      <description> (현재 scale+Delta)까지 Target의 localScale을 Time초 동안 Curve를 따라 조절합니다. 이 핸들러는 오브젝트의 현재 상태에 상대적인 localScale로 변화시킵니다. 어떤 절대적인 localScale목표치가 있다면 AbsInterpolateScale 을 사용해주세요.
 파라미터  Target : 움직일 GameObject의 이름(Hierarchy 창에서 확인 가능한 그것) Curve : EaseIn, EaseOut 중 하나(EaseIn은 서서히 빠르게, EaseOut은 서서히 느리게) Delta : 현재 위치로부터 상대적으로 움직일 scale차이. (x값)|(y값)|(z값)의 포맷으로 작성 Time : 초단위.  </description>
     </item>
     
