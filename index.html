@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yucheol Jung | Personal Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+10+Charted&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -22,8 +26,18 @@
 
     <main>
         <section id="about">
-            <img src="images/portrait.jpg" alt="Portrait of Yucheol Jung" class="about-portrait">
-            <p>Computer graphics researcher + programmer + gamedev. My main interest lies in technologies for visual interactive entertainments.</p>
+            <img src="images/portrait.png" alt="Portrait of Yucheol Jung" class="about-portrait">
+            <p>Computer graphics researcher + programmer + gamedev.</p>
+
+            <h2>Interests</h2>
+            <div class="interests">
+                <ul>
+                    <li>3D face modeling <img class="img-inline" src="images/skull.gif" /></li>
+                    <li>3D shape reconstruction & manipulation</li>
+                    <li>Computational methods for caricature generation</li>
+                    <li>Video game development</li>
+                    <li>MIDI music</li>
+                </ul>
         </section>
 
         <section id="activity">
@@ -35,12 +49,43 @@
                     <li>2016: Internship at Innowireless.</li>
                     <li>2018: B.S. in computer science. POSTECH.</li>
                     <li>2018 – 2019: Internship at Microsoft Research Asia (internet graphics group).</li>
-                    <li>2018 – Now: Graduate student in POSTECH Computer Graphics Lab.</li>
+                    <li>2018 – Now: Ph.D. student in POSTECH Computer Graphics Lab.</li>
                     <li>2021 SIGGRAPH Asia Student Volunteer Subcommittee</li>
                     <li>2022 SIGGRAPH Asia Student Volunteer Program Co-Chair</li>
-                    <li>2023 POSTECHIAN Fellowship</li>
                 </ul>
             </div>
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+                <ul>
+                    <li class="publication-entry">
+                        <img src="images/publications/normal_integration.jpg" class="publication-image">
+                        <div class="publication-text">
+                            <p>Hyomin Kim*, <b>Yucheol Jung*</b>, Seungyong Lee, <i>Discontinuity-preserving Normal Integration with Auxiliary Edges</i>, CVPR 2024.</p>
+                            <p>*Equal contributaion</p>
+                            <p>[<a href="https://arxiv.org/abs/2404.03138">ArXiv</a>] [<a href="https://youtu.be/MTTcW5kAOFE?si=ntnAMDQQfapPdier"]>Video</a>]</p>
+                        </div>
+                    </li>
+
+                    <li class="publication-entry">
+                        <img src="images/publications/mesh_density_adaptation.png" class="publication-image">
+                        <div class="publication-text">
+                            <p><b>Yucheol Jung*</b>, Hyomin Kim*, Gyeongha Hwang, Seung-Hwan Baek, Seungyong Lee, <i>Mesh Density Adaptation for Template-based Shape Reconstruction</i>, SIGGRAPH 2023.</p>
+                            <p>*Equal contributaion</p>
+                            <p>[<a href="https://ycjungsubhuman.github.io/DeepDeformable3DCaricatures/">Project Page</a>] [<a href="http://arxiv.org/abs/2207.14593">ArXiv</a>] [<a href="https://github.com/ycjungSubhuman/DeepDeformable3DCaricatures">GitHub</a>]</p>
+                        </div>
+                    </li>
+
+                    <li class="publication-entry">
+                        <img src="images/publications/mesh_density_adaptation.png" class="publication-image">
+                        <div class="publication-text">
+                            <p><b>Yucheol Jung*</b>, Hyomin Kim*, Gyeongha Hwang, Seung-Hwan Baek, Seungyong Lee, <i>Mesh Density Adaptation for Template-based Shape Reconstruction</i>, SIGGRAPH 2023.</p>
+                            <p>*Equal contributaion</p>
+                            <p>[<a href="https://ycjungsubhuman.github.io/DeepDeformable3DCaricatures/">Project Page</a>] [<a href="http://arxiv.org/abs/2207.14593">ArXiv</a>] [<a href="https://github.com/ycjungSubhuman/DeepDeformable3DCaricatures">GitHub</a>]</p>
+                        </div>
+                    </li>
+                </ul>
         </section>
 
         <section id="projects">
@@ -55,23 +100,19 @@
             </div>
         </section>
 
-        <section id="publications">
-            <h2>Publications</h2>
-            <ul>
-                <li>Publication 1 Title (Link to publication)</li> 
-                <li>Publication 2 Title (Link to publication)</li>
-            </ul>
-        </section>
 
         <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: yourname@email.com</p> 
+            <h2>Contact</h2>
+            <ul>
+                <li>ycjung at postech dot ac dot kr</li> 
+                <li><a href="https://twitter.com/YucheolJung">Twitter</a></li> 
+                <li><a href="https://github.com/ycjungSubhuman">GitHub</a></li> 
+            </ul>
             </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <p>&copy; 2024 Yucheol Jung</p>
     </footer>
-
 </body>
 </html>
